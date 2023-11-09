@@ -65,26 +65,26 @@
 <category>
     <pattern>YES</pattern>
     <that>ARE YOU INTERESTED IN WORKING WITH AI</that>
-    <template>AI Engineer</template>
+    <template>I think you should become an AI Engineer!</template>
 </category>
 
 
 <category>
     <pattern>YES</pattern>
     <that>WORKING ON COMPUTER HARDWARE</that>
-    <template>Computer Hardware Engineer</template>
+    <template>Look into being a Computer Hardware Engineer!</template>
 </category>
 
 <category>
     <pattern>YES</pattern>
     <that>ARE YOU INTERESTED IN CLOUD INFRASTRUCTURE</that>
-    <template>Cloud Computing Specialist</template>
+    <template>I think the best choice for you is Cloud Computing Specialist!</template>
 </category>
 
 <category>
     <pattern>YES</pattern>
     <that>OK, HOW ABOUT REFINING DATA TO DEVELOP INSIGHTS</that>
-    <template>Data Scientist</template>
+    <template>Being a Data Scientist could be perfect for you!</template>
 </category>
 
 </aiml>
