@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<category>
+    <pattern>*</pattern>
+    <template>Sorry, I don't understand. Are you looking for career advice?</template>
+</category>
+
+<category>
+	<pattern>HELLO</pattern>
+	<template>Hi! Are you looking for career advice?</template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>ARE YOU LOOKING FOR CAREER ADVICE</that>
+	<template>Excellent, are you a Computer Science student?</template>
+</category>
+
+<category>
+	<pattern>NO</pattern>
+	<that>ARE YOU LOOKING FOR CAREER ADVICE</that>
+	<template>Ah, that's unfortunate. Have a nice day!</template>
+</category>
+
+<category>
+	<pattern>NO</pattern>
+	<that>EXCELLENT, ARE YOU A COMPUTER SCIENCE STUDENT</that>
+	<template>Oh, I'm sorry. I'm currently only programmed to assist C.S. students in their career search.</template>
+</category>
+
+<category>
+	<pattern>YES</pattern>
+	<that>EXCELLENT, ARE YOU A COMPUTER SCIENCE STUDENT</that>
+	<template>Great! <br></br>Simply answer with yes or no and we will find a career for you! <br></br> Are you interested in cloud infrastructure?</template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>ARE YOU INTERESTED IN CLOUD INFRASTRUCTURE</that>
+    <template>
+        Ok, how about refining data to develop insights?
+    </template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>OK, HOW ABOUT REFINING DATA TO DEVELOP INSIGHTS</that>
+    <template>Working on computer hardware?</template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>WORKING ON COMPUTER HARDWARE</that>
+    <template>Understood. Are you interested in working with AI?</template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>ARE YOU INTERESTED IN WORKING WITH AI</that>
+    <template>Hmm. It seems that you don't want to specialize, which is not a problem! Consider becoming a Software Engineer.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>ARE YOU INTERESTED IN WORKING WITH AI</that>
+    <template>AI Engineer</template>
+</category>
+
+
+<category>
+    <pattern>YES</pattern>
+    <that>WORKING ON COMPUTER HARDWARE</that>
+    <template>Computer Hardware Engineer</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>ARE YOU INTERESTED IN CLOUD INFRASTRUCTURE</that>
+    <template>Cloud Computing Specialist</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>OK, HOW ABOUT REFINING DATA TO DEVELOP INSIGHTS</that>
+    <template>Data Scientist</template>
+</category>
+
+</aiml>
